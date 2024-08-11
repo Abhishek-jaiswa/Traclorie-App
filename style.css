@@ -1,0 +1,84 @@
+body{
+    position: relative;
+}
+
+header{
+    background: rgba(12, 155, 12, 0.89);
+}
+
+.btnns button{
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+
+#gain-loss{
+    background: rgba(12, 155, 12, 0.89);
+}
+
+.model-body{
+    border-radius: 10px;
+    padding: .5rem 1rem;
+    border: 1px solid black;
+    max-width: 490px;
+    max-height: 200px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#model-header{
+    font-family: cursive;
+}
+
+.save-btn{
+    background: rgba(12, 155, 12, 0.89);
+    margin-bottom: 10px;
+}
+
+.side-border-green{
+    border-left:solid rgba(12, 155, 12, 0.89) 3px;
+}
+
+.green-btn{
+    background: rgba(12, 155, 12, 0.89);
+    color: white;
+}
+.green-btn:hover{
+    background: rgba(33, 146, 33, 0.89);
+    color: white;
+}
+
+.side-border-orange{
+    border-left:solid orangered 3px;
+}
+
+.orange-btn{
+    background: orangered;
+    color: white;
+}
+
+.orange-btn:hover{
+    background: rgb(238, 82, 26);
+    color: white;
+    
+}
+
+.progress-bar{
+    transition: width 0.5s;
+}
+
+.modal{
+    transition: .3s ;
+}
+
+
+#collapse-meal, #collapse-workout{
+    transition: .2s ;
+}
+
+#item-info{
+    margin-bottom: 2rem;
+}
